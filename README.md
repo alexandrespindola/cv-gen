@@ -5,7 +5,7 @@
 ![Vue 3](https://img.shields.io/badge/Vue-3-42b883?style=flat-square&logo=vue.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646cff?style=flat-square&logo=vite&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-fff?style=flat-square&logo=bun&logoColor=black)
-![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 **A modern, AI-friendly CV generator designed for the era of intelligent development**
 
@@ -231,4 +231,4 @@ The CV data in `src/data/` contains mock/example data committed to the repositor
 
 ## License
 
-Proprietary - All rights reserved
+MIT License - see [LICENSE](./LICENSE) file for details
