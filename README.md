@@ -13,6 +13,12 @@
 
 ---
 
+<div align="center">
+
+![CV Generator Preview](./cv-gen.webp)
+
+</div>
+
 ## 🚀 About This Project
 
 This CV Generator was developed with a modern philosophy: **leverage AI from your IDE to adapt content and format, automating the CV update process** instead of being trapped in rigid, fixed CV templates.
@@ -106,7 +112,7 @@ app/
 │   │   ├── CVSkills.vue      # Skills display component
 │   │   ├── CVAdditional.vue  # Certificates and additional info
 │   │   └── CVFooter.vue      # CV footer
-│   ├── data/            # CV data files (gitignored)
+│   ├── data/            # CV data files (mock data)
 │   │   ├── cvDataEnglish.json
 │   │   └── cvDataSpanish.json
 │   ├── utils/           # Utility functions
@@ -114,9 +120,6 @@ app/
 │   ├── assets/          # Static assets
 │   ├── App.vue          # Main application component
 │   └── main.js          # Application entry point
-├── examples/            # Example CV data files
-│   ├── cvDataEnglish.example.json
-│   └── cvDataSpanish.example.json
 ├── public/              # Public assets
 └── package.json
 ```
@@ -224,7 +227,7 @@ services:
 
 ## Privacy
 
-Personal CV data in `src/data/` is gitignored. Use the example files in `examples/` as templates for your own data.
+The CV data in `src/data/` contains mock/example data committed to the repository for demonstration purposes. Replace with your personal information for actual use.
 
 ## License
 

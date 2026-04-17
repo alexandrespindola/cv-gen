@@ -1,0 +1,61 @@
+{
+  "personalInfo": {
+    "name": "Juan Pérez",
+    "birthDate": "01.01.1990",
+    "birthPlace": "",
+    "address": "Calle 123, Ciudad, País",
+    "nationality": "Tu Nacionalidad",
+    "phone": "+34 123 456 789",
+    "email": "juan.perez@ejemplo.com",
+    "availability": "Inmediata",
+    "portfolio": "https://portafolio.ejemplo.com",
+    "linkedin": "linkedin.com/in/juanperez",
+    "github": "github.com/juanperez",
+    "location": "Tu Ciudad"
+  },
+  "experience": [
+    {
+      "period": "01.2024 - Presente",
+      "title": "Ingeniero de Software Senior",
+      "company": "Empresa Tecnológica | Remoto",
+      "description": [
+        "Desarrolló y mantuvo aplicaciones web usando frameworks modernos",
+        "Implementó APIs RESTful y arquitectura de microservicios",
+        "Colaboró con equipos multifuncionales para entregar software de alta calidad"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "period": "09.2020 - 06.2022",
+      "degree": "Máster en Informática",
+      "institution": "Universidad de Tecnología",
+      "description": "Enfoque: Ingeniería de Software, Sistemas Distribuidos"
+    }
+  ],
+  "skills": {
+    "technical": {
+      "Backend": "Node.js, TypeScript, Python, APIs REST",
+      "Frontend": "React, Vue.js, TailwindCSS",
+      "Databases": "PostgreSQL, MongoDB",
+      "Cloud & Infrastructure": "AWS, Docker, CI/CD"
+    },
+    "languages": [
+      { "name": "Español", "level": "C2", "description": "Nativo" }
+    ]
+  },
+  "certificates": ["AWS Certified Developer"],
+  "additional": [
+    "Disponible para trabajo remoto",
+    "Abierto a reubicación"
+  ],
+  "projects": [
+    {
+      "name": "Proyecto Ejemplo",
+      "description": [
+        "Construyó una aplicación full-stack usando React y Node.js",
+        "Implementó autenticación e integración con base de datos"
+      ]
+    }
+  ]
+}

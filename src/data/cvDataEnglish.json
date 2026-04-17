@@ -1,0 +1,61 @@
+{
+  "personalInfo": {
+    "name": "John Doe",
+    "birthDate": "01.01.1990",
+    "birthPlace": "",
+    "address": "Street 123, City, Country",
+    "nationality": "Your Nationality",
+    "phone": "+1 234 567 890",
+    "email": "john.doe@example.com",
+    "availability": "Immediate",
+    "portfolio": "https://portfolio.example.com",
+    "linkedin": "linkedin.com/in/johndoe",
+    "github": "github.com/johndoe",
+    "location": "Your City"
+  },
+  "experience": [
+    {
+      "period": "01.2024 - Present",
+      "title": "Senior Software Engineer",
+      "company": "Tech Company | Remote",
+      "description": [
+        "Developed and maintained web applications using modern frameworks",
+        "Implemented RESTful APIs and microservices architecture",
+        "Collaborated with cross-functional teams to deliver high-quality software"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "period": "09.2020 - 06.2022",
+      "degree": "Master in Computer Science",
+      "institution": "University of Technology",
+      "description": "Focus: Software Engineering, Distributed Systems"
+    }
+  ],
+  "skills": {
+    "technical": {
+      "Backend": "Node.js, TypeScript, Python, REST APIs",
+      "Frontend": "React, Vue.js, TailwindCSS",
+      "Databases": "PostgreSQL, MongoDB",
+      "Cloud & Infrastructure": "AWS, Docker, CI/CD"
+    },
+    "languages": [
+      { "name": "English", "level": "C2", "description": "Native" }
+    ]
+  },
+  "certificates": ["AWS Certified Developer"],
+  "additional": [
+    "Available for remote work",
+    "Open to relocation"
+  ],
+  "projects": [
+    {
+      "name": "Example Project",
+      "description": [
+        "Built a full-stack application using React and Node.js",
+        "Implemented authentication and database integration"
+      ]
+    }
+  ]
+}

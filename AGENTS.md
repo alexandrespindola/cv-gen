@@ -106,7 +106,7 @@ Contains all reusable Vue components.
 
 ### `src/data/`
 
-Contains CV data files (gitignored).
+Contains CV data files (committed as mock data).
 
 - **`cvDataEnglish.json`**: English CV data
 - **`cvDataSpanish.json`**: Spanish CV data
@@ -268,9 +268,9 @@ The application uses CSS custom properties for consistent styling:
 
 ### Data Privacy
 
-- **Gitignored Data**: `src/data/` is gitignored to protect personal information
-- **Example Files**: Use `examples/` folder for template data
-- **No Sensitive Data**: Never commit personal information to repository
+- **Mock Data**: `src/data/` contains example/mock data committed to the repository for demonstration purposes
+- **Replace with Real Data**: For production use, replace the mock data with your personal information
+- **No Sensitive Data in Repo**: The committed data is fictional/example data only
 
 ### API Security
 
