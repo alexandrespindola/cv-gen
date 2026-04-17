@@ -15,7 +15,7 @@
 
 <div align="center">
 
-![CV Generator Preview](./cv-gen.webp)
+![CV Generator Preview](./public/cv-gen.webp)
 
 </div>
 
