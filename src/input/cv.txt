@@ -1,0 +1,157 @@
+ALEXANDRE BORGES SPINDOLA
+Date of Birth: 19.11.1988 | Nationality: Spanish (EU Citizen)
+Kölner Straße 123, 50667 Cologne, Germany
+Mobile: +34 675 460 731 | Email: alexandre@spindola.me
+LinkedIn: linkedin.com/in/alexspindola | GitHub: github.com/alexandrespindola
+Availability: Immediate
+
+PROFESSIONAL EXPERIENCE
+
+01.2025 - Present
+Full-Stack Developer (Backend-Focused) | Poropo | Spain, Remote
+- Architecture and development of NestJS-based middleware system for Magento 2, Shopify and Holded ERP
+- Database design with PostgreSQL and Drizzle ORM, audit trails and entity mapping
+- Implementation of BullMQ with Redis for asynchronous webhook processing
+- RESTful API development with Fastify, >80% test coverage with Vitest
+- Performance optimization for high-volume e-commerce operations
+- **Full-stack event management platform**: Developed comprehensive congress registration system using Nuxt.js v3.19.1, Hono v4.10.4, PostgreSQL v17
+- **Multi-language architecture**: Implemented 7-language internationalization system with locale management and fallback strategies
+- **Advanced authentication**: Integrated Better Auth v1.3.34 with 2FA/TOTP, GDPR compliance, and session management
+- **Email automation**: Built MJML-based email template system with Nodemailer integration and SMTP configuration
+- **Testing infrastructure**: Established Playwright v1.48.0 E2E testing suite with automated CI/CD pipeline
+- **Monitoring & security**: Implemented Sentry v10.22.0 error tracking, rate limiting, and reCAPTCHA v3 protection
+
+10.2024 - 08.2025
+Full-Stack Developer | TitansDev | Spain, Remote
+- Frontend engineering: Built and maintained responsive web applications using Vue.js and Nuxt.js, focusing on performance, accessibility and clean component architecture.
+- Backend & data layer: Managed Node.js backend services and databases, ensuring high availability, data integrity and secure API communication for client projects.
+- Client-facing delivery: Acted as the primary technical point of contact, handling bug fixing, small feature requests and user support to keep production environments stable.
+
+12.2022 - 09.2024
+Freelance Web Developer & Consultant | Self-Employed | Brazil, Remote
+- End-to-end delivery: Delivered 10+ web projects for international clients, leading the full lifecycle from requirements and architecture to deployment and ongoing maintenance.
+- Performance & SEO: Optimized websites for Core Web Vitals and page speed, including code refactoring, asset optimization and server configuration to improve search rankings and conversion.
+- CMS enablement: Customized WordPress and headless CMS setups (e.g., Strapi, Directus) to provide non-technical stakeholders with intuitive content management workflows.
+- Linux/VPS administration and DNS configuration for client projects
+
+02.2019 - 06.2020
+Digital Operations & Data Analyst | Banrisul (State Bank) | Brazil
+- Processing of financial data via SQL for strategic ROI reports
+- Implementation of data tracking systems in collaboration with engineering teams
+
+EDUCATION
+
+11.2025 - Present
+Postgraduate in Full-Stack Development | Descomplica College
+- Focus: Java Ecosystem (Spring Boot), Angular & Microservices Architecture
+
+10.2023 - 08.2025
+MBA in Software Engineering | University of São Paulo (USP)
+- Focus: Software Architecture, System Design, DevOps, Cloud Computing
+
+02.2008 - 12.2014
+Bachelor in Psychology | University of São Paulo (USP)
+
+SPECIAL SKILLS
+
+IT Knowledge:
+- **Frontend**: Astro, Vue.js/Nuxt.js v3.19.1, Svelte/SvelteKit v5.39.5, React foundations, TailwindCSS v4/v6.13.1, Leaflet
+- **Static Site Generation**: Astro island architecture, build optimization, image processing with Sharp
+- **Internationalization**: Multi-language routing (7 languages), locale management, fallback strategies
+- **Cloud Platforms**: Cloudflare Pages, edge computing, serverless deployment
+- **Content Management**: Zod schema validation, type-safe content collections
+- **Backend**: Hono v4.10.4, Node.js, TypeScript, Fastify, REST APIs, Webhooks
+- **Databases**: PostgreSQL v17, Drizzle ORM v0.44.7, Schema Design, Migration Management
+- **Queue Systems**: BullMQ, Redis, Asynchronous Processing, Job Scheduling
+- **API Integration**: Axios, RESTful APIs, GraphQL, Authentication (JWT, Basic Auth)
+- **Testing**: Vitest v4.0.16, Playwright v1.48.0, Unit Testing, Integration Testing, E2E Testing, Test Coverage
+- **Infrastructure**: Docker, Docker Compose, Linux, CI/CD Pipelines
+- **Code Quality**: Biome, TypeScript strict mode, Clean Architecture
+- **Build Tools**: Bun runtime, modern JavaScript tooling, automated deployment pipelines
+- **Web Performance**: Core Web Vitals optimization, image optimization, static asset management
+- **Cloud**: GCP (Associate Cloud Engineer Certified), AWS concepts
+- **Automation**: n8n, LLM Integration (Gemini, OpenAI)
+- **Authentication**: Better Auth v1.3.34, 2FA/TOTP, Session Management, GDPR Compliance
+- **Email Systems**: MJML v4.16.1, Nodemailer v7.0.10, SMTP Configuration, HTML Email Templates
+- **Monitoring**: Sentry v10.22.0, Error Tracking, Performance Monitoring
+- **Documentation**: OpenAPI/Swagger, Interactive API Documentation
+- **Security**: CORS Configuration, Rate Limiting, Security Headers, reCAPTCHA v3
+- **Scheduling**: Node-cron v4.2.1, Automated Tasks, GDPR Data Deletion
+- **UI Components**: Maz-UI v4.1.6, Notivue v2.4.5, Chart.js v4.5.0, Vue-Chartjs v5.3.2
+- **Form Handling**: Vue-Tel-Input v9.5.0, Date Picker v11.0.2, Form Validation
+- **PDF Generation**: jsPDF v3.0.3, jsPDF-Autotable v5.0.2, Canvas Integration
+- **Data Visualization**: Chart.js, Canvas Rendering, Chart Generation
+- **Mobile Development**: SvelteKit mobile-first architecture, responsive design patterns
+- **Firebase Ecosystem**: Firebase Auth v12.6.0, Firestore v4.9.2, Firebase Storage v0.14.0, Firebase Admin SDK v13.6.0
+- **Security Libraries**: DOMPurify v3.3.1 for XSS protection, CSP headers implementation
+- **Form Validation**: Zod v4.2.1 comprehensive schema validation, TypeScript integration
+- **Component Libraries**: DaisyUI v5.5.5, custom component architecture
+- **Development Tools**: Vite v7.1.7, ESLint v9.36.0, Prettier v3.6.2, TypeScript v5.9.2
+- **Package Management**: Bun package manager, npm compatibility
+- **Deployment**: Netlify adapter v4.3.2, Cloudflare Pages optimization
+- **Testing Libraries**: Testing Library/Jest-DOM v6.9.1, Testing Library/Svelte v5.3.1, jsdom v27.4.0
+- **Logging**: Pino v10.1.0 structured logging, Pino-Pretty v13.1.3
+- **Environment Management**: dotenv v17.2.3, environment variable validation
+- **Type Safety**: TypeScript strict mode, comprehensive type definitions
+
+Language Skills:
+- English: Full Professional Proficiency (C1) - Daily working language
+- Spanish: Native (C2) - EU Citizenship Language
+- Portuguese: Native
+- German: Beginner (A1) - Currently in intensive training
+- Italian: Conversational (B1)
+
+ZERTIFIKATE
+- GCP Associate Cloud Engineer Certification
+
+WEITERES
+- EU Citizenship (Spain) - No visa required
+- B2B capability (Autónomo) for German projects
+- Available for B2B contracts or permanent/full-time employment
+
+PROJECTS
+
+**Enterprise Resource Integration System - Holded Core**
+- NestJS v11, TypeScript v5.7, PostgreSQL v17, Drizzle ORM, BullMQ, Redis
+- Middleware platform for multi-platform e-commerce synchronization
+- 15+ RESTful endpoints, audit logging, performance optimization
+
+**Gentlecan – Mobile-First Dog Grooming Management System**
+- **Frontend**: SvelteKit v5.39.5, Svelte v5.39.5, TypeScript v5.9.2, TailwindCSS v4.1.13, DaisyUI v5.5.5
+- **Backend**: Firebase v12.6.0, Firebase Admin SDK v13.6.0, Firestore v4.9.2, Firebase Auth v1.11.1, Firebase Storage v0.14.0
+- **Architecture**: Mobile-first SPA with 144+ Svelte components, role-based access control, responsive design patterns
+- **Security**: DOMPurify v3.3.1 XSS protection, CSP headers, Firebase security rules, input sanitization
+- **Data Validation**: Zod v4.2.1 comprehensive schema validation with 573 lines of type-safe schemas
+- **Testing**: Vitest v4.0.16 unit testing, Testing Library integration, jsdom environment setup
+- **Development Tools**: Vite v7.1.7 with source maps, Bun runtime, ESLint v9.36.0, Prettier v3.6.2
+- **Infrastructure**: Firebase emulators for local development, Netlify deployment, Cloudflare optimization
+- **Features**: Multi-role authentication (client/admin/groomer), appointment scheduling, pet management, real-time notifications
+- **Performance**: Optimized build with esbuild minification, chunk optimization, ES2020 target
+- **Code Quality**: TypeScript strict mode, comprehensive type definitions, clean architecture patterns
+- **Logging**: Pino v10.1.0 structured logging system, error tracking, performance monitoring
+- **Component Architecture**: 35+ reusable components, modal systems, form validation, toast notifications
+- **State Management**: Svelte stores, reactive patterns, client-server data synchronization
+
+**Gnosis Congress 2026 - Full-Stack Event Management Platform**
+- **Frontend**: Nuxt.js v3.19.1, Vue.js v3.4.38, TailwindCSS v6.13.1, Playwright E2E testing
+- **Backend**: Hono v4.10.4, PostgreSQL v17, Drizzle ORM v0.44.7, Better Auth v1.3.34
+- **Architecture**: Multi-language platform (7 languages), RESTful APIs, Docker containerization
+- **Features**: User registration system, payment processing, admin dashboard, email automation
+- **Integrations**: N8N workflows, MJML email templates, Sentry monitoring, reCAPTCHA v3
+- **Security**: 2FA/TOTP authentication, GDPR compliance, rate limiting, CORS configuration
+- **Performance**: Optimized for Cloudflare Pages edge deployment, automated CI/CD pipeline
+
+**Gnosisdeutschland.org - Multi-language Educational Platform**
+- Astro v5.16.11, TailwindCSS v4.1.18, Cloudflare Pages, astro-i18n
+- Scalable architecture supporting 6 languages with 40+ reusable components
+- Interactive mapping integration with Leaflet for location-based features
+- SEO-optimized with automated sitemaps and robots.txt management
+- Edge deployment achieving global sub-second load times
+
+**AI-Powered Content Workflow Automation**
+- Astro, Google Gemini AI, n8n, Strapi CMS
+- Automated publishing pipeline for 100+ languages
+
+Cologne, [Date]
+_________________________
+Alexandre Borges Spindola

@@ -1,0 +1,387 @@
+/* Print-specific styles for CV PDF generation */
+
+@media print {
+
+  /* Hide non-print elements */
+  .no-print {
+    display: none !important;
+  }
+
+  /* Body and page setup */
+  body {
+    margin: 0;
+    padding: 0;
+    background: white !important;
+  }
+
+  /* Page settings */
+  @page {
+    size: A4;
+    margin: 10mm;
+    /* Smaller margins for more content */
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* CV content container */
+  #cv-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+    border: none !important;
+    border-radius: 0 !important;
+    background: white !important;
+  }
+
+  /* Prevent page breaks inside important sections */
+  section,
+  .mb-6,
+  .mb-8,
+  .mb-10 {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Prevent breaks after headers */
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Keep experience items together */
+  .mb-6>div,
+  .mb-8>div {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Keep education items together */
+  .mb-4 {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Keep project items together */
+  .mb-8>div {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Sidebar sections */
+  .mb-8 {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Keep contact info together */
+  header {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Footer settings */
+  footer {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* List items */
+  ul,
+  li {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Image settings */
+  img {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    max-width: 100% !important;
+  }
+
+  /* Font sizes for print */
+  body {
+    font-size: 10pt;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 16pt;
+    margin-bottom: 8pt;
+  }
+
+  h3 {
+    font-size: 12pt;
+    margin-bottom: 6pt;
+  }
+
+  h4 {
+    font-size: 11pt;
+    margin-bottom: 4pt;
+  }
+
+  /* Spacing adjustments for print */
+  .mb-10 {
+    margin-bottom: 12pt !important;
+  }
+
+  .mb-8 {
+    margin-bottom: 10pt !important;
+  }
+
+  .mb-6 {
+    margin-bottom: 8pt !important;
+  }
+
+  .mb-4 {
+    margin-bottom: 6pt !important;
+  }
+
+  .mb-2 {
+    margin-bottom: 4pt !important;
+  }
+
+  .mb-3 {
+    margin-bottom: 5pt !important;
+  }
+
+  /* Padding adjustments */
+  .p-6 {
+    padding: 6pt !important;
+  }
+
+  .p-10 {
+    padding: 8pt !important;
+  }
+
+  /* Grid adjustments */
+  .grid {
+    display: block !important;
+  }
+
+  .lg\\:col-span-2 {
+    width: 100% !important;
+  }
+
+  /* Flex adjustments */
+  .flex {
+    display: block !important;
+  }
+
+  .justify-between {
+    justify-content: normal !important;
+  }
+
+  .items-start {
+    align-items: normal !important;
+  }
+
+  /* Text adjustments */
+  .text-3xl {
+    font-size: 16pt !important;
+  }
+
+  .text-xl {
+    font-size: 12pt !important;
+  }
+
+  .text-lg {
+    font-size: 11pt !important;
+  }
+
+  .text-sm {
+    font-size: 9pt !important;
+  }
+
+  .text-xs {
+    font-size: 8pt !important;
+  }
+
+  /* Border adjustments */
+  .border-b-4 {
+    border-bottom: 2pt solid !important;
+  }
+
+  .border-b-2 {
+    border-bottom: 1pt solid !important;
+  }
+
+  .border-l-4 {
+    border-left: 2pt solid !important;
+  }
+
+  /* Badge adjustments */
+  .rounded-full {
+    border-radius: 2pt !important;
+  }
+
+  .px-3 {
+    padding-left: 2pt !important;
+    padding-right: 2pt !important;
+  }
+
+  .py-1 {
+    padding-top: 1pt !important;
+    padding-bottom: 1pt !important;
+  }
+
+  /* Ensure colors print well */
+  .text-blue-900,
+  .text-blue-800,
+  .text-blue-700,
+  .text-blue-600 {
+    color: #000 !important;
+  }
+
+  .text-gray-900,
+  .text-gray-700,
+  .text-gray-600 {
+    color: #000 !important;
+  }
+
+  .bg-blue-600,
+  .bg-blue-400 {
+    background: #f0f0f0 !important;
+    color: #000 !important;
+    border: 1pt solid #000 !important;
+  }
+
+  .bg-gray-50 {
+    background: #f8f8f8 !important;
+  }
+
+  .bg-white {
+    background: white !important;
+  }
+
+  /* Border colors */
+  .border-blue-600,
+  .border-blue-400,
+  .border-blue-100,
+  .border-gray-200 {
+    border-color: #000 !important;
+  }
+
+  /* W indicators */
+  .bg-blue-600 {
+    background: #000 !important;
+    width: 2pt !important;
+    height: 4pt !important;
+  }
+
+  /* Footer signature line */
+  .font-semibold {
+    font-weight: bold !important;
+  }
+
+  /* Optimize for space */
+  .space-y-3>*+* {
+    margin-top: 3pt !important;
+  }
+
+  .space-y-2>*+* {
+    margin-top: 2pt !important;
+  }
+
+  .space-y-1>*+* {
+    margin-top: 1pt !important;
+  }
+
+  /* Language grid adjustments */
+  .languages-grid {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 3pt !important;
+  }
+
+  .language-item {
+    font-size: 7pt !important;
+    white-space: nowrap !important;
+    flex: none !important;
+    text-align: left !important;
+  }
+
+  .language-name {
+    font-weight: 600 !important;
+  }
+
+  .language-level {
+    font-size: 7pt !important;
+  }
+
+  .language-description {
+    display: none !important;
+  }
+
+  /* Ensure no overflow */
+  * {
+    overflow: visible !important;
+  }
+
+  /* Shadow removal */
+  .shadow-xl,
+  .shadow-lg,
+  .shadow-md {
+    box-shadow: none !important;
+  }
+
+  /* Hover state removal */
+  .hover\\:bg-blue-700:hover,
+  .hover\\:bg-green-700:hover,
+  .hover\\:bg-purple-700:hover {
+    background-color: inherit !important;
+  }
+
+  /* Transition removal */
+  .transition-colors {
+    transition: none !important;
+  }
+}
+
+/* High-quality print settings for text selection */
+@media print and (color) {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+/* Ensure text remains selectable and high quality */
+@media print {
+  * {
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    text-rendering: geometricPrecision !important;
+  }
+
+  /* Prevent text from being converted to paths */
+  text,
+  span,
+  div,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li,
+  td,
+  th {
+    font-family: 'Arial', 'Helvetica', sans-serif !important;
+    font-weight: normal !important;
+    font-style: normal !important;
+  }
+}
+
+/* Optimized for PDF generation */
+.pdf-optimized {
+  font-family: 'Arial', sans-serif !important;
+  color: #000 !important;
+  background: #fff !important;
+}
